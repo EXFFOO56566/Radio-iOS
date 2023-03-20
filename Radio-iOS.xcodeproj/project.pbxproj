@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D40DA428B81160CC658CF26 /* Pods_RADIOBOX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85E8300B7A411DC1E00CFA4A /* Pods_RADIOBOX.framework */; };
+		DE43395924EF057500E5072C /* ComplaintViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE43395824EF057500E5072C /* ComplaintViewController.swift */; };
+		DE548BF424EC3F6400197C45 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE548BF324EC3F6300197C45 /* RegisterViewController.swift */; };
+		DE548BF624EC3F6E00197C45 /* FgtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE548BF524EC3F6D00197C45 /* FgtViewController.swift */; };
+		DE548BF824EC882B00197C45 /* UserPrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE548BF724EC882B00197C45 /* UserPrViewController.swift */; };
+		DE548C0324EC98EE00197C45 /* YBTextPicker.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE548BFA24EC98ED00197C45 /* YBTextPicker.xib */; };
+		DE548C0424EC98EE00197C45 /* YBTextPicker_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = DE548BFC24EC98ED00197C45 /* YBTextPicker_checked.png */; };
+		DE548C0524EC98EE00197C45 /* YBTextPicker_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = DE548BFD24EC98ED00197C45 /* YBTextPicker_unchecked.png */; };
+		DE548C0624EC98EE00197C45 /* YBTextPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE548BFE24EC98ED00197C45 /* YBTextPicker.swift */; };
+		DE548C0724EC98EE00197C45 /* YBTextPickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE548C0024EC98EE00197C45 /* YBTextPickerCell.xib */; };
+		DE548C0824EC98EE00197C45 /* YBTextPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE548C0124EC98EE00197C45 /* YBTextPickerCell.swift */; };
+		DE548C0924EC98EE00197C45 /* YBTextPickerDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE548C0224EC98EE00197C45 /* YBTextPickerDataModel.swift */; };
+		DE58207924EACE6600CC618E /* RadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE58207824EACE6600CC618E /* RadioViewController.swift */; };
+		DE58207B24EACF8B00CC618E /* config.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE58207A24EACF8B00CC618E /* config.swift */; };
+		DE58207E24EAD09A00CC618E /* items.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE58207D24EAD09A00CC618E /* items.swift */; };
+		DE58208124EAD38300CC618E /* CollCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE58208024EAD38300CC618E /* CollCollectionViewCell.swift */; };
+		DE58208324EAE1CE00CC618E /* RadioTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE58208224EAE1CE00CC618E /* RadioTableViewCell.swift */; };
+		DE58208A24EAE5AC00CC618E /* empty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DE58208724EAE5AB00CC618E /* empty.cpp */; };
+		DE58208B24EAE5AC00CC618E /* BSRating.m in Sources */ = {isa = PBXBuildFile; fileRef = DE58208924EAE5AC00CC618E /* BSRating.m */; };
+		DEA3B52624EAC62C00C2CF11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA3B52524EAC62C00C2CF11 /* AppDelegate.swift */; };
+		DEA3B52824EAC62C00C2CF11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA3B52724EAC62C00C2CF11 /* SceneDelegate.swift */; };
+		DEA3B52A24EAC62C00C2CF11 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA3B52924EAC62C00C2CF11 /* FirstViewController.swift */; };
+		DEA3B52C24EAC62C00C2CF11 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA3B52B24EAC62C00C2CF11 /* SecondViewController.swift */; };
+		DEA3B52F24EAC62C00C2CF11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA3B52D24EAC62C00C2CF11 /* Main.storyboard */; };
+		DEA3B53224EAC62C00C2CF11 /* RADIOBOX.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DEA3B53024EAC62C00C2CF11 /* RADIOBOX.xcdatamodeld */; };
+		DEA3B53424EAC62F00C2CF11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA3B53324EAC62F00C2CF11 /* Assets.xcassets */; };
+		DEA3B53724EAC62F00C2CF11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA3B53524EAC62F00C2CF11 /* LaunchScreen.storyboard */; };
+		DEBB6B6224EAF3E700A7B48B /* RsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B5824EAF3E400A7B48B /* RsAPI.swift */; };
+		DEBB6B6324EAF3E700A7B48B /* RadioStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B5924EAF3E500A7B48B /* RadioStation.swift */; };
+		DEBB6B6424EAF3E700A7B48B /* LogoShareView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEBB6B5A24EAF3E500A7B48B /* LogoShareView.xib */; };
+		DEBB6B6524EAF3E700A7B48B /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B5B24EAF3E500A7B48B /* ImageLoader.swift */; };
+		DEBB6B6624EAF3E700A7B48B /* RadioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B5C24EAF3E500A7B48B /* RadioPlayer.swift */; };
+		DEBB6B6724EAF3E700A7B48B /* ShareImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B5D24EAF3E600A7B48B /* ShareImageGenerator.swift */; };
+		DEBB6B6824EAF3E700A7B48B /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B5E24EAF3E600A7B48B /* Track.swift */; };
+		DEBB6B6924EAF3E700A7B48B /* RsPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B5F24EAF3E600A7B48B /* RsPlayer.swift */; };
+		DEBB6B6A24EAF3E700A7B48B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B6024EAF3E600A7B48B /* Reachability.swift */; };
+		DEBB6B6B24EAF3E700A7B48B /* LogoShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B6124EAF3E700A7B48B /* LogoShareView.swift */; };
+		DEBB6B6D24EAF48F00A7B48B /* RadiosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B6C24EAF48F00A7B48B /* RadiosViewController.swift */; };
+		DEBB6B7324EAF6B000A7B48B /* AppleHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B7024EAF6B000A7B48B /* AppleHelpers.swift */; };
+		DEBB6B7424EAF6B000A7B48B /* ColorUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B7124EAF6B000A7B48B /* ColorUi.swift */; };
+		DEBB6B7624EB295100A7B48B /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B7524EB295100A7B48B /* TopViewController.swift */; };
+		DEBB6B7824EB41D400A7B48B /* AddRadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B7724EB41D400A7B48B /* AddRadioViewController.swift */; };
+		DEBB6B7B24EB45EA00A7B48B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEBB6B7A24EB45EA00A7B48B /* Localizable.strings */; };
+		DEBB6B7D24EC11F300A7B48B /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B7C24EC11F300A7B48B /* UserViewController.swift */; };
+		DEBB6B7F24EC128600A7B48B /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B7E24EC128600A7B48B /* SettingViewController.swift */; };
+		DEBB6B8124EC2FB200A7B48B /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B8024EC2FB200A7B48B /* TabViewController.swift */; };
+		DEBB6B8424EC3E5000A7B48B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B8324EC3E5000A7B48B /* LoginViewController.swift */; };
+		DEBB6B8824EC3E7D00A7B48B /* ERProgressHud.m in Sources */ = {isa = PBXBuildFile; fileRef = DEBB6B8724EC3E7D00A7B48B /* ERProgressHud.m */; };
+		DEE7943B24ED911100080891 /* Alertz.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE7943A24ED911100080891 /* Alertz.swift */; };
+		DEE7943D24EDBF3D00080891 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE7943C24EDBF3D00080891 /* FavoriteViewController.swift */; };
+		DEE7943F24EDDCB100080891 /* MyRadioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE7943E24EDDCB100080891 /* MyRadioViewController.swift */; };
+		DEE7944424EDE66800080891 /* TFAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE7944124EDE66800080891 /* TFAlertView.swift */; };
+		DEE7944524EDE66800080891 /* TFAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE7944324EDE66800080891 /* TFAlertController.swift */; };
+		DEE7944724EDF2EF00080891 /* USerRadiosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEE7944624EDF2EF00080891 /* USerRadiosViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3320E5E5C3B9F079CAB58EC8 /* Pods-RADIOBOX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RADIOBOX.debug.xcconfig"; path = "Target Support Files/Pods-RADIOBOX/Pods-RADIOBOX.debug.xcconfig"; sourceTree = "<group>"; };
+		85E8300B7A411DC1E00CFA4A /* Pods_RADIOBOX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RADIOBOX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8CDF1BEAFABEA86DA7E87D /* Pods-RADIOBOX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RADIOBOX.release.xcconfig"; path = "Target Support Files/Pods-RADIOBOX/Pods-RADIOBOX.release.xcconfig"; sourceTree = "<group>"; };
+		DE43395824EF057500E5072C /* ComplaintViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplaintViewController.swift; sourceTree = "<group>"; };
+		DE548BF324EC3F6300197C45 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		DE548BF524EC3F6D00197C45 /* FgtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FgtViewController.swift; sourceTree = "<group>"; };
+		DE548BF724EC882B00197C45 /* UserPrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPrViewController.swift; sourceTree = "<group>"; };
+		DE548BFA24EC98ED00197C45 /* YBTextPicker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBTextPicker.xib; sourceTree = "<group>"; };
+		DE548BFC24EC98ED00197C45 /* YBTextPicker_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YBTextPicker_checked.png; sourceTree = "<group>"; };
+		DE548BFD24EC98ED00197C45 /* YBTextPicker_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YBTextPicker_unchecked.png; sourceTree = "<group>"; };
+		DE548BFE24EC98ED00197C45 /* YBTextPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBTextPicker.swift; sourceTree = "<group>"; };
+		DE548C0024EC98EE00197C45 /* YBTextPickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YBTextPickerCell.xib; sourceTree = "<group>"; };
+		DE548C0124EC98EE00197C45 /* YBTextPickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBTextPickerCell.swift; sourceTree = "<group>"; };
+		DE548C0224EC98EE00197C45 /* YBTextPickerDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBTextPickerDataModel.swift; sourceTree = "<group>"; };
+		DE58207824EACE6600CC618E /* RadioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RadioViewController.swift; path = view/RadioViewController.swift; sourceTree = "<group>"; };
+		DE58207A24EACF8B00CC618E /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
+		DE58207D24EAD09A00CC618E /* items.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = items.swift; sourceTree = "<group>"; };
+		DE58208024EAD38300CC618E /* CollCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE58208224EAE1CE00CC618E /* RadioTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioTableViewCell.swift; sourceTree = "<group>"; };
+		DE58208524EAE5AA00CC618E /* RADIOBOX-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RADIOBOX-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE58208624EAE5AB00CC618E /* empty.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = empty.hpp; sourceTree = "<group>"; };
+		DE58208724EAE5AB00CC618E /* empty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = empty.cpp; sourceTree = "<group>"; };
+		DE58208824EAE5AB00CC618E /* BSRating.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSRating.h; sourceTree = "<group>"; };
+		DE58208924EAE5AC00CC618E /* BSRating.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSRating.m; sourceTree = "<group>"; };
+		DEA3B52224EAC62C00C2CF11 /* RADIOBOX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RADIOBOX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA3B52524EAC62C00C2CF11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEA3B52724EAC62C00C2CF11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DEA3B52924EAC62C00C2CF11 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		DEA3B52B24EAC62C00C2CF11 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		DEA3B52E24EAC62C00C2CF11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEA3B53124EAC62C00C2CF11 /* RADIOBOX.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RADIOBOX.xcdatamodel; sourceTree = "<group>"; };
+		DEA3B53324EAC62F00C2CF11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEA3B53624EAC62F00C2CF11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEA3B53824EAC62F00C2CF11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEBB6B5824EAF3E400A7B48B /* RsAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RsAPI.swift; sourceTree = "<group>"; };
+		DEBB6B5924EAF3E500A7B48B /* RadioStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioStation.swift; sourceTree = "<group>"; };
+		DEBB6B5A24EAF3E500A7B48B /* LogoShareView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogoShareView.xib; sourceTree = "<group>"; };
+		DEBB6B5B24EAF3E500A7B48B /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		DEBB6B5C24EAF3E500A7B48B /* RadioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioPlayer.swift; sourceTree = "<group>"; };
+		DEBB6B5D24EAF3E600A7B48B /* ShareImageGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareImageGenerator.swift; sourceTree = "<group>"; };
+		DEBB6B5E24EAF3E600A7B48B /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		DEBB6B5F24EAF3E600A7B48B /* RsPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RsPlayer.swift; sourceTree = "<group>"; };
+		DEBB6B6024EAF3E600A7B48B /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		DEBB6B6124EAF3E700A7B48B /* LogoShareView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoShareView.swift; sourceTree = "<group>"; };
+		DEBB6B6C24EAF48F00A7B48B /* RadiosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiosViewController.swift; sourceTree = "<group>"; };
+		DEBB6B7024EAF6B000A7B48B /* AppleHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleHelpers.swift; sourceTree = "<group>"; };
+		DEBB6B7124EAF6B000A7B48B /* ColorUi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUi.swift; sourceTree = "<group>"; };
+		DEBB6B7524EB295100A7B48B /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		DEBB6B7724EB41D400A7B48B /* AddRadioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRadioViewController.swift; sourceTree = "<group>"; };
+		DEBB6B7A24EB45EA00A7B48B /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		DEBB6B7C24EC11F300A7B48B /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		DEBB6B7E24EC128600A7B48B /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		DEBB6B8024EC2FB200A7B48B /* TabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		DEBB6B8324EC3E5000A7B48B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DEBB6B8624EC3E7D00A7B48B /* ERProgressHud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ERProgressHud.h; sourceTree = "<group>"; };
+		DEBB6B8724EC3E7D00A7B48B /* ERProgressHud.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ERProgressHud.m; sourceTree = "<group>"; };
+		DEE7943A24ED911100080891 /* Alertz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alertz.swift; sourceTree = "<group>"; };
+		DEE7943C24EDBF3D00080891 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		DEE7943E24EDDCB100080891 /* MyRadioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRadioViewController.swift; sourceTree = "<group>"; };
+		DEE7944124EDE66800080891 /* TFAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFAlertView.swift; sourceTree = "<group>"; };
+		DEE7944224EDE66800080891 /* TFAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFAlertController.h; sourceTree = "<group>"; };
+		DEE7944324EDE66800080891 /* TFAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TFAlertController.swift; sourceTree = "<group>"; };
+		DEE7944624EDF2EF00080891 /* USerRadiosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USerRadiosViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEA3B51F24EAC62C00C2CF11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D40DA428B81160CC658CF26 /* Pods_RADIOBOX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64DC0BB75732631F4605D18D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3320E5E5C3B9F079CAB58EC8 /* Pods-RADIOBOX.debug.xcconfig */,
+				DC8CDF1BEAFABEA86DA7E87D /* Pods-RADIOBOX.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6A203007E92A317648F4C256 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85E8300B7A411DC1E00CFA4A /* Pods_RADIOBOX.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE548BF924EC98D400197C45 /* picker */ = {
+			isa = PBXGroup;
+			children = (
+				DE548BFB24EC98ED00197C45 /* Assets */,
+				DE548BFE24EC98ED00197C45 /* YBTextPicker.swift */,
+				DE548BFA24EC98ED00197C45 /* YBTextPicker.xib */,
+				DE548BFF24EC98EE00197C45 /* YBTextPickerCell */,
+				DE548C0224EC98EE00197C45 /* YBTextPickerDataModel.swift */,
+			);
+			path = picker;
+			sourceTree = "<group>";
+		};
+		DE548BFB24EC98ED00197C45 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DE548BFC24EC98ED00197C45 /* YBTextPicker_checked.png */,
+				DE548BFD24EC98ED00197C45 /* YBTextPicker_unchecked.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DE548BFF24EC98EE00197C45 /* YBTextPickerCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE548C0024EC98EE00197C45 /* YBTextPickerCell.xib */,
+				DE548C0124EC98EE00197C45 /* YBTextPickerCell.swift */,
+			);
+			path = YBTextPickerCell;
+			sourceTree = "<group>";
+		};
+		DE58207C24EAD07500CC618E /* item */ = {
+			isa = PBXGroup;
+			children = (
+				DE58207D24EAD09A00CC618E /* items.swift */,
+			);
+			path = item;
+			sourceTree = "<group>";
+		};
+		DE58207F24EAD36A00CC618E /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				DE58208024EAD38300CC618E /* CollCollectionViewCell.swift */,
+				DE58208224EAE1CE00CC618E /* RadioTableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		DE58208424EAE59B00CC618E /* rbars */ = {
+			isa = PBXGroup;
+			children = (
+				DE58208824EAE5AB00CC618E /* BSRating.h */,
+				DE58208924EAE5AC00CC618E /* BSRating.m */,
+				DE58208724EAE5AB00CC618E /* empty.cpp */,
+				DE58208624EAE5AB00CC618E /* empty.hpp */,
+				DE58208524EAE5AA00CC618E /* RADIOBOX-Bridging-Header.h */,
+			);
+			path = rbars;
+			sourceTree = "<group>";
+		};
+		DEA3B51924EAC62C00C2CF11 = {
+			isa = PBXGroup;
+			children = (
+				DEA3B52424EAC62C00C2CF11 /* RADIOBOX */,
+				DEA3B52324EAC62C00C2CF11 /* Products */,
+				64DC0BB75732631F4605D18D /* Pods */,
+				6A203007E92A317648F4C256 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DEA3B52324EAC62C00C2CF11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEA3B52224EAC62C00C2CF11 /* RADIOBOX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA3B52424EAC62C00C2CF11 /* RADIOBOX */ = {
+			isa = PBXGroup;
+			children = (
+				DEE7944024EDE65A00080891 /* fields */,
+				DE548BF924EC98D400197C45 /* picker */,
+				DEBB6B8524EC3E6D00A7B48B /* progres */,
+				DEBB6B8224EC3E3A00A7B48B /* login */,
+				DEBB6B7924EB45B000A7B48B /* localize */,
+				DEBB6B6E24EAF6A300A7B48B /* helpers */,
+				DEBB6B5724EAF3D500A7B48B /* rcontroller */,
+				DE58208424EAE59B00CC618E /* rbars */,
+				DE58207F24EAD36A00CC618E /* cell */,
+				DE58207C24EAD07500CC618E /* item */,
+				DEA3B52524EAC62C00C2CF11 /* AppDelegate.swift */,
+				DEA3B52724EAC62C00C2CF11 /* SceneDelegate.swift */,
+				DEA3B52924EAC62C00C2CF11 /* FirstViewController.swift */,
+				DEA3B52B24EAC62C00C2CF11 /* SecondViewController.swift */,
+				DEA3B52D24EAC62C00C2CF11 /* Main.storyboard */,
+				DEA3B53324EAC62F00C2CF11 /* Assets.xcassets */,
+				DEA3B53524EAC62F00C2CF11 /* LaunchScreen.storyboard */,
+				DEA3B53824EAC62F00C2CF11 /* Info.plist */,
+				DEA3B53024EAC62C00C2CF11 /* RADIOBOX.xcdatamodeld */,
+				DE58207824EACE6600CC618E /* RadioViewController.swift */,
+				DEBB6B8024EC2FB200A7B48B /* TabViewController.swift */,
+				DE58207A24EACF8B00CC618E /* config.swift */,
+				DEBB6B6C24EAF48F00A7B48B /* RadiosViewController.swift */,
+				DEBB6B7524EB295100A7B48B /* TopViewController.swift */,
+				DEBB6B7724EB41D400A7B48B /* AddRadioViewController.swift */,
+				DEBB6B7C24EC11F300A7B48B /* UserViewController.swift */,
+				DEBB6B7E24EC128600A7B48B /* SettingViewController.swift */,
+				DE548BF724EC882B00197C45 /* UserPrViewController.swift */,
+				DEE7943C24EDBF3D00080891 /* FavoriteViewController.swift */,
+				DEE7943E24EDDCB100080891 /* MyRadioViewController.swift */,
+				DEE7944624EDF2EF00080891 /* USerRadiosViewController.swift */,
+				DE43395824EF057500E5072C /* ComplaintViewController.swift */,
+			);
+			path = RADIOBOX;
+			sourceTree = "<group>";
+		};
+		DEBB6B5724EAF3D500A7B48B /* rcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				DEBB6B5B24EAF3E500A7B48B /* ImageLoader.swift */,
+				DEBB6B6124EAF3E700A7B48B /* LogoShareView.swift */,
+				DEBB6B5A24EAF3E500A7B48B /* LogoShareView.xib */,
+				DEBB6B5C24EAF3E500A7B48B /* RadioPlayer.swift */,
+				DEBB6B5924EAF3E500A7B48B /* RadioStation.swift */,
+				DEBB6B6024EAF3E600A7B48B /* Reachability.swift */,
+				DEBB6B5824EAF3E400A7B48B /* RsAPI.swift */,
+				DEBB6B5F24EAF3E600A7B48B /* RsPlayer.swift */,
+				DEBB6B5D24EAF3E600A7B48B /* ShareImageGenerator.swift */,
+				DEBB6B5E24EAF3E600A7B48B /* Track.swift */,
+			);
+			path = rcontroller;
+			sourceTree = "<group>";
+		};
+		DEBB6B6E24EAF6A300A7B48B /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DEBB6B7024EAF6B000A7B48B /* AppleHelpers.swift */,
+				DEBB6B7124EAF6B000A7B48B /* ColorUi.swift */,
+				DEE7943A24ED911100080891 /* Alertz.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		DEBB6B7924EB45B000A7B48B /* localize */ = {
+			isa = PBXGroup;
+			children = (
+				DEBB6B7A24EB45EA00A7B48B /* Localizable.strings */,
+			);
+			path = localize;
+			sourceTree = "<group>";
+		};
+		DEBB6B8224EC3E3A00A7B48B /* login */ = {
+			isa = PBXGroup;
+			children = (
+				DEBB6B8324EC3E5000A7B48B /* LoginViewController.swift */,
+				DE548BF324EC3F6300197C45 /* RegisterViewController.swift */,
+				DE548BF524EC3F6D00197C45 /* FgtViewController.swift */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		DEBB6B8524EC3E6D00A7B48B /* progres */ = {
+			isa = PBXGroup;
+			children = (
+				DEBB6B8624EC3E7D00A7B48B /* ERProgressHud.h */,
+				DEBB6B8724EC3E7D00A7B48B /* ERProgressHud.m */,
+			);
+			path = progres;
+			sourceTree = "<group>";
+		};
+		DEE7944024EDE65A00080891 /* fields */ = {
+			isa = PBXGroup;
+			children = (
+				DEE7944224EDE66800080891 /* TFAlertController.h */,
+				DEE7944324EDE66800080891 /* TFAlertController.swift */,
+				DEE7944124EDE66800080891 /* TFAlertView.swift */,
+			);
+			path = fields;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEA3B52124EAC62C00C2CF11 /* RADIOBOX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA3B53B24EAC62F00C2CF11 /* Build configuration list for PBXNativeTarget "RADIOBOX" */;
+			buildPhases = (
+				41873D4D8D84178B0C15FA67 /* [CP] Check Pods Manifest.lock */,
+				DEA3B51E24EAC62C00C2CF11 /* Sources */,
+				DEA3B51F24EAC62C00C2CF11 /* Frameworks */,
+				DEA3B52024EAC62C00C2CF11 /* Resources */,
+				398F15CDC2D52166F46D9480 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RADIOBOX;
+			productName = RADIOBOX;
+			productReference = DEA3B52224EAC62C00C2CF11 /* RADIOBOX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA3B51A24EAC62C00C2CF11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = Simpleapp;
+				TargetAttributes = {
+					DEA3B52124EAC62C00C2CF11 = {
+						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
+					};
+				};
+			};
+			buildConfigurationList = DEA3B51D24EAC62C00C2CF11 /* Build configuration list for PBXProject "RADIOBOX" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEA3B51924EAC62C00C2CF11;
+			productRefGroup = DEA3B52324EAC62C00C2CF11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA3B52124EAC62C00C2CF11 /* RADIOBOX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEA3B52024EAC62C00C2CF11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBB6B7B24EB45EA00A7B48B /* Localizable.strings in Resources */,
+				DE548C0324EC98EE00197C45 /* YBTextPicker.xib in Resources */,
+				DEA3B53724EAC62F00C2CF11 /* LaunchScreen.storyboard in Resources */,
+				DEBB6B6424EAF3E700A7B48B /* LogoShareView.xib in Resources */,
+				DE548C0524EC98EE00197C45 /* YBTextPicker_unchecked.png in Resources */,
+				DE548C0724EC98EE00197C45 /* YBTextPickerCell.xib in Resources */,
+				DE548C0424EC98EE00197C45 /* YBTextPicker_checked.png in Resources */,
+				DEA3B53424EAC62F00C2CF11 /* Assets.xcassets in Resources */,
+				DEA3B52F24EAC62C00C2CF11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		398F15CDC2D52166F46D9480 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RADIOBOX/Pods-RADIOBOX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RADIOBOX/Pods-RADIOBOX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RADIOBOX/Pods-RADIOBOX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41873D4D8D84178B0C15FA67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RADIOBOX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEA3B51E24EAC62C00C2CF11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBB6B6924EAF3E700A7B48B /* RsPlayer.swift in Sources */,
+				DEE7943B24ED911100080891 /* Alertz.swift in Sources */,
+				DEBB6B7D24EC11F300A7B48B /* UserViewController.swift in Sources */,
+				DE58207E24EAD09A00CC618E /* items.swift in Sources */,
+				DE548C0824EC98EE00197C45 /* YBTextPickerCell.swift in Sources */,
+				DEBB6B7324EAF6B000A7B48B /* AppleHelpers.swift in Sources */,
+				DE43395924EF057500E5072C /* ComplaintViewController.swift in Sources */,
+				DEA3B52C24EAC62C00C2CF11 /* SecondViewController.swift in Sources */,
+				DEBB6B7624EB295100A7B48B /* TopViewController.swift in Sources */,
+				DEBB6B6524EAF3E700A7B48B /* ImageLoader.swift in Sources */,
+				DEBB6B6224EAF3E700A7B48B /* RsAPI.swift in Sources */,
+				DEE7943F24EDDCB100080891 /* MyRadioViewController.swift in Sources */,
+				DEA3B52A24EAC62C00C2CF11 /* FirstViewController.swift in Sources */,
+				DEBB6B7824EB41D400A7B48B /* AddRadioViewController.swift in Sources */,
+				DEE7944424EDE66800080891 /* TFAlertView.swift in Sources */,
+				DE548C0624EC98EE00197C45 /* YBTextPicker.swift in Sources */,
+				DEBB6B6824EAF3E700A7B48B /* Track.swift in Sources */,
+				DEBB6B7424EAF6B000A7B48B /* ColorUi.swift in Sources */,
+				DEBB6B8824EC3E7D00A7B48B /* ERProgressHud.m in Sources */,
+				DE58208B24EAE5AC00CC618E /* BSRating.m in Sources */,
+				DE58208324EAE1CE00CC618E /* RadioTableViewCell.swift in Sources */,
+				DEBB6B6724EAF3E700A7B48B /* ShareImageGenerator.swift in Sources */,
+				DE548BF624EC3F6E00197C45 /* FgtViewController.swift in Sources */,
+				DE58207924EACE6600CC618E /* RadioViewController.swift in Sources */,
+				DEBB6B6624EAF3E700A7B48B /* RadioPlayer.swift in Sources */,
+				DEE7943D24EDBF3D00080891 /* FavoriteViewController.swift in Sources */,
+				DEA3B53224EAC62C00C2CF11 /* RADIOBOX.xcdatamodeld in Sources */,
+				DEE7944724EDF2EF00080891 /* USerRadiosViewController.swift in Sources */,
+				DEBB6B8424EC3E5000A7B48B /* LoginViewController.swift in Sources */,
+				DEBB6B6324EAF3E700A7B48B /* RadioStation.swift in Sources */,
+				DEBB6B7F24EC128600A7B48B /* SettingViewController.swift in Sources */,
+				DE58208A24EAE5AC00CC618E /* empty.cpp in Sources */,
+				DEBB6B6B24EAF3E700A7B48B /* LogoShareView.swift in Sources */,
+				DEBB6B6D24EAF48F00A7B48B /* RadiosViewController.swift in Sources */,
+				DE58207B24EACF8B00CC618E /* config.swift in Sources */,
+				DEBB6B8124EC2FB200A7B48B /* TabViewController.swift in Sources */,
+				DE548C0924EC98EE00197C45 /* YBTextPickerDataModel.swift in Sources */,
+				DE548BF424EC3F6400197C45 /* RegisterViewController.swift in Sources */,
+				DEE7944524EDE66800080891 /* TFAlertController.swift in Sources */,
+				DEA3B52624EAC62C00C2CF11 /* AppDelegate.swift in Sources */,
+				DEA3B52824EAC62C00C2CF11 /* SceneDelegate.swift in Sources */,
+				DE548BF824EC882B00197C45 /* UserPrViewController.swift in Sources */,
+				DEBB6B6A24EAF3E700A7B48B /* Reachability.swift in Sources */,
+				DE58208124EAD38300CC618E /* CollCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEA3B52D24EAC62C00C2CF11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA3B52E24EAC62C00C2CF11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEA3B53524EAC62F00C2CF11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA3B53624EAC62F00C2CF11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEA3B53924EAC62F00C2CF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DEA3B53A24EAC62F00C2CF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEA3B53C24EAC62F00C2CF11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3320E5E5C3B9F079CAB58EC8 /* Pods-RADIOBOX.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2A27P4365;
+				INFOPLIST_FILE = RADIOBOX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = red.simpleapp.RADIOBOX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RADIOBOX/rbars/RADIOBOX-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DEA3B53D24EAC62F00C2CF11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC8CDF1BEAFABEA86DA7E87D /* Pods-RADIOBOX.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G2A27P4365;
+				INFOPLIST_FILE = RADIOBOX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = red.simpleapp.RADIOBOX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RADIOBOX/rbars/RADIOBOX-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEA3B51D24EAC62C00C2CF11 /* Build configuration list for PBXProject "RADIOBOX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA3B53924EAC62F00C2CF11 /* Debug */,
+				DEA3B53A24EAC62F00C2CF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA3B53B24EAC62F00C2CF11 /* Build configuration list for PBXNativeTarget "RADIOBOX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA3B53C24EAC62F00C2CF11 /* Debug */,
+				DEA3B53D24EAC62F00C2CF11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DEA3B53024EAC62C00C2CF11 /* RADIOBOX.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DEA3B53124EAC62C00C2CF11 /* RADIOBOX.xcdatamodel */,
+			);
+			currentVersion = DEA3B53124EAC62C00C2CF11 /* RADIOBOX.xcdatamodel */;
+			path = RADIOBOX.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DEA3B51A24EAC62C00C2CF11 /* Project object */;
+}

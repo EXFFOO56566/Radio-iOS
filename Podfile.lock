@@ -1,0 +1,122 @@
+PODS:
+  - AARatingBar (1.2)
+  - Alamofire (4.9.1)
+  - AlamofireImage (3.6.0):
+    - Alamofire (~> 4.9)
+  - AlertViewBuilder (0.1.9)
+  - Bolts/Tasks (1.9.1)
+  - CRNotifications (1.2.1)
+  - DTGradientButton (0.1.3)
+  - Google-Mobile-Ads-SDK (8.10.0):
+    - GoogleAppMeasurement (< 9.0, >= 7.0)
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleAppMeasurement (8.7.0):
+    - GoogleAppMeasurement/AdIdSupport (= 8.7.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (8.7.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.4)
+    - GoogleUtilities/MethodSwizzler (~> 7.4)
+    - GoogleUtilities/Network (~> 7.4)
+    - "GoogleUtilities/NSData+zlib (~> 7.4)"
+    - nanopb (~> 2.30908.0)
+  - GoogleUserMessagingPlatform (2.0.0)
+  - GoogleUtilities/AppDelegateSwizzler (7.5.2):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.5.2):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.5.2):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.5.2):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.5.2):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.5.2)"
+  - GoogleUtilities/Reachability (7.5.2):
+    - GoogleUtilities/Logger
+  - HCSStarRatingView (1.5)
+  - KBImageView (0.0.3)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - Parse (1.19.2):
+    - Parse/Core (= 1.19.2)
+  - Parse/Core (1.19.2):
+    - Bolts/Tasks (= 1.9.1)
+  - Parse/UI (1.19.2):
+    - Parse/Core
+  - PromisesObjC (2.0.0)
+  - SCLAlertView (0.8)
+  - SPAlert (3.3.1)
+  - TOSegmentedControl (1.1.0)
+
+DEPENDENCIES:
+  - AARatingBar
+  - AlamofireImage (~> 3.5)
+  - AlertViewBuilder
+  - CRNotifications
+  - DTGradientButton
+  - Google-Mobile-Ads-SDK
+  - HCSStarRatingView (~> 1.5)
+  - KBImageView
+  - Parse
+  - Parse/UI
+  - SCLAlertView
+  - SPAlert
+  - TOSegmentedControl
+
+SPEC REPOS:
+  trunk:
+    - AARatingBar
+    - Alamofire
+    - AlamofireImage
+    - AlertViewBuilder
+    - Bolts
+    - CRNotifications
+    - DTGradientButton
+    - Google-Mobile-Ads-SDK
+    - GoogleAppMeasurement
+    - GoogleUserMessagingPlatform
+    - GoogleUtilities
+    - HCSStarRatingView
+    - KBImageView
+    - nanopb
+    - Parse
+    - PromisesObjC
+    - SCLAlertView
+    - SPAlert
+    - TOSegmentedControl
+
+SPEC CHECKSUMS:
+  AARatingBar: dc54d24687ae97688ffdb29738332d0bc5c0c09f
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireImage: be9963c6582d68b39e89191f64c82a7d7bf40fdd
+  AlertViewBuilder: 9c000d07486fb6bc06dd239a1752d1bbfbb3cabb
+  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  CRNotifications: 2799786cb63e104c75699843d8928afd680182f3
+  DTGradientButton: 6f0f696cd433255d226c05e4ab047d991d13d4ef
+  Google-Mobile-Ads-SDK: 9c78323a7069cd42ddf1ad2fddbaec889b085091
+  GoogleAppMeasurement: 2be61ce546ad074dbe4dd545f222ac6033bb1d9e
+  GoogleUserMessagingPlatform: ab890ce5f6620f293a21b6bdd82e416a2c73aeca
+  GoogleUtilities: 8de2a97a17e15b6b98e38e8770e2d129a57c0040
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  KBImageView: d54b654e87757fa2b5de4b44bf5601f729f8cc25
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  Parse: 081fb8755c3000fd11df817eec235def233d0af3
+  PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SPAlert: 7028b585168153d9619192d4debe060b25071b0f
+  TOSegmentedControl: 89b6585bf0404a28ac1eca5f1249facb943e90f1
+
+PODFILE CHECKSUM: 807430cce2ac8c6152bd6bde17bb432cffdd7c75
+
+COCOAPODS: 1.10.0
